@@ -74,9 +74,7 @@ class LinkedListNode {
   }
 }
 
-
 const test = new LinkedList(1, 2, 3, 4, 5);
-
 
 let head = {
   next: {
