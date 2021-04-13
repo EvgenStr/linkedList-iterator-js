@@ -9,10 +9,10 @@ class LinkedListIterator {
     this.currentNode = this.currentNode
       ? this.currentNode.next
       : this.list.head;
-      return {
-        value: this.currentNode ? this.currentNode.value : undefined,
-        done: !this.currentNode,
-      }
+    return {
+      value: this.currentNode ? this.currentNode.value : undefined,
+      done: !this.currentNode,
+    }
   }
 }
 
@@ -75,7 +75,7 @@ class LinkedListNode {
 }
 
 
-const test = new LinkedList(1,2,3,4,5);
+const test = new LinkedList(1, 2, 3, 4, 5);
 /*
 next, prev должны быть instanceof LinekdListNode
 Если это не так - выводить TypeError
