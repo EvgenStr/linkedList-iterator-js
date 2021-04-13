@@ -74,6 +74,8 @@ class LinkedListNode {
   }
 }
 
+
+const test = new LinkedList(1,2,3,4,5);
 /*
 next, prev должны быть instanceof LinekdListNode
 Если это не так - выводить TypeError
