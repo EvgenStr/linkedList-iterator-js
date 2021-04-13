@@ -76,6 +76,24 @@ class LinkedListNode {
 
 
 const test = new LinkedList(1, 2, 3, 4, 5);
+
+
+let head = {
+  next: {
+    next: {
+      next: {
+        next: {
+          next: {},
+          prev: null,
+        },
+        prev: null,
+      },
+      prev: null,
+    },
+    prev: null,
+  },
+  prev: null,
+}
 /*
 next, prev должны быть instanceof LinekdListNode
 Если это не так - выводить TypeError
